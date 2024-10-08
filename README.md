@@ -70,7 +70,7 @@ the necessary background and a series of How-to in order to understand this kata
   - Do not use external tools, such as Spacy for processing the text.
     We want to see your thinking and coding competences.
   - You do not need to provide neither the training data nor the trained $n$-grams language model.
-  - The code should be made...... **TO DEFINE**
+  - You must commit your code on GitHub or any other SCM repository you prefer (e.g. BitBucket, GitLab, etc) and send us the link. 
   - Read carefully this README, and do not take more than 2 hours to develop the code.
 
 # What we provide
@@ -98,5 +98,3 @@ the necessary background and a series of How-to in order to understand this kata
  Thus, it is imperative that the name or path of `generate.py` and `train.py` do not change, neither the
 signature of the main functions (`main_train` and `main_generate`). Furthermore, do not change the JSON schemas.
  - We will assess manually your code, quality, organization, algorithm.
- 
-Finally, we will reach out to you to have a call and discuss your kata.
