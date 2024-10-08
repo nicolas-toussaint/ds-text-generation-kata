@@ -18,7 +18,7 @@ To do that, you will program a code for _training_ an $n$-gram language model, a
 for reading this model and generating some text.
 
 In the following sections, we will present you with all the necessary aspects that you will need to
-know about the expected code, such as the goal and rules. In the [Wiki](https://gitlab.com/jusmundi-group/data/ds-kata/-/wikis/home)
+know about the expected code, such as the goal and rules. In the [Wiki](../../wikis/home)
 of the project, you will find
 the necessary background and a series of How-to in order to understand this kata.
 
@@ -50,7 +50,7 @@ the necessary background and a series of How-to in order to understand this kata
   We have defined some rules that you must follow:
   - Do not change the name or path of the scripts files `train.py` and `generate.py`.
     Also, do not change the input arguments or the main functions signatures (`main_train` and `main_generate`).   
-  - Use the input/output schemas defined by us (see the project's [Wiki](https://gitlab.com/jusmundi-group/data/ds-kata/-/wikis/home)) and do not modify them.
+  - Use the input/output schemas defined by us (see the project's [Wiki](../../wikis/home)) and do not modify them.
   - For the training code:
     - Do not calculate the probabilities for $n$-grams occurring fewer than 6 times.
     - The input data are plain text documents located in a directory.
@@ -62,7 +62,7 @@ the necessary background and a series of How-to in order to understand this kata
     - Do not generate $n$-grams over multiple lines. In other words the new line character
     cannot be part of an $n$-gram. 
   - For the generated text:
-    - Do not print the symbols marking the beginning or ending of a text (see the project's [Wiki](https://gitlab.com/jusmundi-group/data/ds-kata/-/wikis/home)).
+    - Do not print the symbols marking the beginning or ending of a text (see the project's [Wiki](../../wikis/home)).
     - The generation of a text must end when:
       - The end of a string has been predicted.
       - There is no following word in the model.
