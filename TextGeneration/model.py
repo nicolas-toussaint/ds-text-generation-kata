@@ -20,7 +20,7 @@ class NGramsModel:
         self.use_top_candidate = 1
 
         # Only use ngram when they have been found n times in the training dataset.
-        self._ngram_minimal_count = 1
+        self._ngram_minimal_count = 6
 
         self._data = {}
 
